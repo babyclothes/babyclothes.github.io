@@ -27,29 +27,3 @@ function tpl(lists){
     }
     return arr.join('');
 }
-
-
-
-/*
-<li>
-    <a hidefocus="true" target="_blank"
-    href="http://item.koudai.com/vtem?itemId=vdian256742514&category=home">
-        <div class="image" title="2014秋冬款新品 韩版太空棉女童天鹅短款小外套童装">
-            <img class="lazy"
-            data-src="http://img.geilicdn.com/SBB5hFTyYx5H3CxjRYpCr7IzQ5oYbAl-ze6arvsbzI2o5d=_750x750.jpg"
-            alt="2014秋冬款新品 韩版太空棉女童天鹅短款小外套童装"
-            src="http://img.geilicdn.com/SBB5hFTyYx5H3CxjRYpCr7IzQ5oYbAl-ze6arvsbzI2o5d=_750x750.jpg"
-            style="display: inline;">
-            </div>
-
-            <div class="title" title="2014秋冬款新品 韩版太空棉女童天鹅短款小外套童装">
-            2014秋冬款新品 韩版太空棉女童天鹅短款小外套童装
-            </div>
-            <div class="price-info ">
-                <span class="pink f-14">¥</span>
-                <span class="price price-int">58.</span><span class="price price-decimal">90</span>
-                <span class="origin-price strike mr-10">¥80.00</span>
-                <span class="discount">7.3折</span>
-            </div>
-        </a>
-    </li>*/
