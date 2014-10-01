@@ -4,7 +4,7 @@ $(document).ready(function(){
     $('#clothesContent').fadeIn(500);
     $('.loading').hide();
     var ul = $('#p-ul-wrap');
-    var lists = clothesData.list;
+    var lists = neiyiAllData.list;
     ul.append(tpl(lists));
   });
 });

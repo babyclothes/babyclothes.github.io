@@ -2,3 +2,12 @@ body {
     position: relative;
     height: 100%;
 }
+
+.loading{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -163px;
+    margin-top: 150px;
+
+}

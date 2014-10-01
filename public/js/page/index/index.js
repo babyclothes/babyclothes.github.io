@@ -1,7 +1,16 @@
 $(document).ready(function(){
-  var ul = $('#p-ul-wrap');
-  var lists = indexData.list;
-  ul.append(tpl(lists));
+  $('.loading').fadeIn(1000,function(){
+    $('.loading').fadeOut(500);
+    $('#indexContent').fadeIn(500);
+    $('.loading').hide();
+    var ul = $('#p-ul-wrap');
+    var neiyi = $('#p-ul-neiyi');
+    var jack = $('#p-ul-jack');
+    var lists = tuijianData.list;
+    ul.append(tpl(lists));
+    neiyi.append(tpl(neiyiData.list));
+    jack.append(tpl(jackData.list));
+  });
 });
 
 
